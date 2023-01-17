@@ -15,4 +15,4 @@ jobs:
     steps:
     - name: Scheduler Test
       run: |
-        python3 hello-world.py
+        python hello-world.py
