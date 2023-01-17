@@ -13,9 +13,5 @@ jobs:
     runs-on: [self-hosted, linux, x64]
     
     steps:
-    - name: pwd test
-      run: pwd
     - name: Scheduler Test 1
-      run: python ../../test/hello-world.py
-    - name: Scheduler Test 2
-      run: python ./test/hello-world.py
+      run: python /opt/ml/git-action-test/test/hello-world.py
