@@ -14,4 +14,4 @@ jobs:
 
     steps:
     - name: Scheduler Test
-      run: python hello-world.py
+      run: python /opt/ml/git-action-test/hello-world.py
