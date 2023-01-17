@@ -15,6 +15,9 @@ jobs:
       working-directory: ./test
 
     steps:
+    - name: pwd test
+      run: |
+        pwd
     - name: Scheduler Test
       run: |
         python hello-world.py
